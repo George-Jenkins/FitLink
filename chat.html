@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="styles.css" rel="stylesheet" type="text/css"/>
+<link href="fonts/open-sans.css" rel="stylesheet" type="text/css" />
+<link href="fonts/fredokaone.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<div id="page" task="chat" class="hide"></div>
+
+<div id="page-div" class="center">
+
+<div class='text-small right' style="margin-right:5px;">
+<a href="index.html">Profile</a> - 
+<a href="find-users.html">Search</a> - 
+<a href="login.html">Logout</a>
+</div>
+
+<div class="title">Chat</div>
+
+<p>
+
+<div style="max-width:300px;margin:0 auto;">
+
+<div id="chat-container-div" style="position:relative" class="text-small"></div>
+
+<div class="text-small">Chat with <span id="chat-with-span"></span></div>
+
+<form id="message-form">
+	<textarea id="message"></textarea>
+	<input type="submit" value="Send" class="button1"></input>
+</form>
+</div>
+
+</div><!-- page-div -->
+
+<script src="jquery.js"></script>
+<script src="scripts.js"></script>
+</body>
+</html>
